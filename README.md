@@ -1,3 +1,42 @@
+<b>requirement/persyaratan</b>
+---
+> - Php versi 8
+>> - Cara menginstal php dalam bahasa indonesia : https://youtu.be/Uw3ZGIMvIdA?si=mBVZ-lBnoCilASzo
+>>- Cara menginstal php dalam bahasa inggris : https://youtu.be/MPRLUd8Pmyo?si=FqN54nVr4duH4Keg
+---
+>>- database
+>>- membutuh kan laragon atau xampp 
+---
+> - Laravel versi 10.0.0
+> - cara membuat laravel yang versi yang sama 
+```
+   Composer Create-project laravel\laravel=10.0.0 nama-projectnya
+```
+---
+<b>Cara menjalankannya</b>
+---
+> - langkah pertaman : lakukan git clone seperti di bawah ini :
+```
+ git clone https://github.com/Usmanganteng/belajar-laravel-database.git
+```
+> - langkah kedua : copy file .env.example dan ganti namanya menjadi .env seperti perintah di bawah ini ketika sudah kalian lakukan, kalian bisa tulis perintah setelah nya yaitu composer install 
+```
+ cp .env.example .env
+ composer install
+```
+> - langkah ketiga : lakukan perintah seperti di bawah ini :
+```
+php artisan key:generate
+```
+> - langkah keempat : kalian bisa buat database dengan nama belajar_laravel_database lalu ganti nama database yang ada di .env dengan nama database yang sudah kalian buat lalu lakukan perintah :
+```
+php artisan migrate
+```
+> - langkah terakhir : kailan bisa langsung jalankan atau run dengan menulilskan perintah :
+```
+php artisan serve
+```
+---
 <b>POINT UTAMA</b>
 ---
 > #### UNTUK APA
